@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 
-import Header from "../components/Header";
+import DefaultHeader from "../components/DefaultHeader";
 
 class FeedsScreen extends Component {
   static navigationOptions = {
-    headerTitle: () => <Header />,
+    headerTitle: () => <DefaultHeader />,
     headerTitleAlign: "Center"
   };
   constructor(props) {
